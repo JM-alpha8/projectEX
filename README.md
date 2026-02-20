@@ -107,3 +107,45 @@ docker-compose up
 - 비동기 주문 처리 구조 도입
 - MSA 전환 고려
 - Kubernetes 기반 확장
+
+
+---
+
+## 10. Team
+
+| Name | Role | Responsibility |
+|------|------|----------------|
+| Kim JM | Backend Lead | 전체 아키텍처 설계, 주문/결제 도메인 구현 |
+| Lee JS | Backend Developer | 상품/회원 도메인 구현, API 설계 |
+| Park HY | DevOps | Docker 구성, CI/CD 설정, 배포 구조 설계 |
+| Choi MK | QA & Testing | 테스트 전략 수립, 통합 테스트 작성 |
+
+---
+
+## 11. Project Timeline
+
+### Week 1 – Requirement & Design
+- 요구사항 정의
+- 유저 스토리 정리
+- ERD 설계
+- API 명세 작성
+- 아키텍처 다이어그램 작성
+
+### Week 2 – Core Implementation
+- 회원 / 상품 기능 구현
+- 주문 도메인 구현
+- 재고 동시성 제어 적용
+- JWT 인증 적용
+
+### Week 3 – Advanced Features & Testing
+- 결제 연동
+- 예외 처리 체계 정리
+- 단위 테스트 / 통합 테스트 작성
+- 동시성 테스트 검증
+
+### Week 4 – Performance & Deployment
+- N+1 문제 해결
+- Redis 캐싱 적용
+- Docker 기반 배포 구성
+- CI/CD 설정
+- 문서 정리 및 리팩토링
